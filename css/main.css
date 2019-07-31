@@ -1,4 +1,4 @@
-/*! HTML5 Boilerplate v7.2.0 | MIT License | https://html5boilerplate.com/ */
+sub-block/*! HTML5 Boilerplate v7.2.0 | MIT License | https://html5boilerplate.com/ */
 
 /* main.css 2.0.0 | MIT License | https://github.com/h5bp/main.css#readme */
 /*
@@ -111,12 +111,12 @@ header {height: 170px;
         margin-bottom: 0px;}
 
 .list {position: relative;
-    float: right;
-    color: white;
-    z-index: 5;
-    margin-top: 36px;
-    margin-right: 0px;
-    padding-left: 0px;}
+       float: right;
+       color: white;
+       z-index: 5;
+       margin-top: 36px;
+       margin-right: 0px;
+       padding-left: 0px;}
 
 nav > ul > li {list-style: none;
                display: inline;
@@ -138,7 +138,7 @@ nav > ul > li {list-style: none;
                 width: 58.75%;
                 top: -197px;
                 left: 80px;
-                clip-path: inset(0% 0% 0% 0% round 60px);
+                clip-path: inset(0% 0% 0% 0% round 80px);
                 font-size: 14px;
                 position: relative;
                 z-index: 0;
@@ -185,7 +185,7 @@ main {overflow-x: hidden;}
                  z-index: 0;}
 
 .under-bg_grey {background-color: #fafafa;
-                height: 1364px;
+                height: 1144px;
                 width: 225.75%;
                 clip-path: inset(0% 0% 0% 0% round 100px);
                 font-size: 14px;
@@ -198,7 +198,7 @@ main {overflow-x: hidden;}
 .section-b {position: relative;
             z-index: 1;
             text-align: center;
-            top: -1150px;}
+            top: -1050px;}
 
 .section-b__container, .section-c__container {display: flex;
                                               flex-flow: column nowrap;
@@ -227,9 +227,109 @@ main {overflow-x: hidden;}
                        top: -840px;}
 
 .section-c__container__par {width: 86.38%;
+                            text-align: center;
+                            margin-bottom: 53px;}
+
+.section-c__container__sub-par {width: 48.75%;
+                                text-align: center;}
+
+.block-slack,
+.block-gsuite,
+.block-trello,
+.block-asana,
+.block-salesforce,
+.block-typeform,
+.sub-block-slack,
+.sub-block-gsuite,
+.sub-block-trello,
+.sub-block-asana,
+.sub-block-salesforce,
+.sub-block-typeform {display: flex;
+                    flex-flow: column nowrap;
+                    align-items: center;}
+
+.slack,
+.gsuite,
+.trello,
+.asana,
+.salesforce,
+.typeform       {width: 102px;
+                 border: 1px solid #f2f1f6;
+                 padding: 30px 56px;}
+
+.sub-block-slack,
+.sub-block-gsuite,
+.sub-block-trello,
+.sub-block-asana,
+.sub-block-salesforce,
+.sub-block-typeform {border: 1px solid #f2f1f6;
+                    width: 214px;
+                    margin-bottom: 20px;}
+
+.section-c__container__sub-par {width: 72.27%;}
+
+.section-c__container__final-sub {width: 165px;}
+
+.section-d {position: relative; top: -750px;}
+
+.section-d {display: flex;
+            flex-flow: column nowrap;
+            align-items: center;}
+
+.section-d__container__par {width: 78%;
                             text-align: center;}
 
-.section-c__container__sub-par {width: 48.75%; text-align: center;}
+.section-d__container__btn {background-color: #06d89b;
+                            padding: 17px 60px;
+                            border-radius: 5px;
+                            margin-right: 24px;
+                            font-size: 12px;
+                            color: white;
+                            border: none;
+                            text-align: center;}
+
+footer {position: relative;
+        top: -590px;
+        background-color: #070439;
+        color: white;}
+
+.top-footer {display: flex;
+             flex-flow: column nowrap;
+             align-items: center;}
+
+.wlogo {fill: white;}
+
+.footer__logo {margin: 82px 0px 24px 22px;}
+
+.top-footer__par {width: 85.8%;
+                  margin-bottom: 18px;}
+
+.top-footer__email {margin-bottom: 16px;
+                    width: 85.6%;}
+
+.btn-container {width: 85.6%;
+                display: flex;
+                flex-flow: row nowrap;
+                justify-content: flex-end;}
+
+.top-footer__btn {margin-bottom: 38px;
+                  padding: 9px 46px;
+                  background-color: #06d89b;
+                  border: none;
+                  border-radius: 5px;
+                  color: white;}
+
+.phone-logo, .email-logo {margin: 0px 16px 0px 22px;}
+
+.phone-par {margin-top: 0px; margin-bottom: 19px;}
+
+.email-par {margin-top: 0px; margin-bottom: 100px;}
+
+.address-heading {margin-top: 77px; margin-left: 22px;}
+
+.address-par {margin-top: 24px; margin-left: 22px;}
+
+.address-par-last {padding-bottom: 77px;}
 
 
 
