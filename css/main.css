@@ -133,16 +133,16 @@ nav > ul > li {list-style: none;
                      font-size: 12px;}
 
 .under-bg_blue {background-image: linear-gradient(to top, #a09ae2, #847dca);
-          float: right;
-          height: 300px;
-          width: 58.75%;
-          top: -197px;
-          left: 80px;
-          clip-path: inset(0% 0% 0% 0% round 60px);
-          font-size: 14px;
-          position: relative;
-          z-index: 0;
-          transform: rotate(115deg);}
+                float: right;
+                height: 300px;
+                width: 58.75%;
+                top: -197px;
+                left: 80px;
+                clip-path: inset(0% 0% 0% 0% round 60px);
+                font-size: 14px;
+                position: relative;
+                z-index: 0;
+                transform: rotate(115deg);}
 
 .logo {float: left;
        margin-top: 26px;
@@ -168,6 +168,8 @@ nav > ul > li {list-style: none;
                      margin-top: 0px;
                      margin-bottom: 32px;}
 
+main {overflow-x: hidden;}
+
 .section-a__par  {width: 87.50%;
                   margin-top: 0px;
                   margin-bottom: 30px;}
@@ -178,16 +180,46 @@ nav > ul > li {list-style: none;
                  border-radius: 5px;
                  color: white;
                  margin-top: 0px;
-                 margin-bottom: 206px;}
+                 margin-bottom: 206px;
+                 position: relative;
+                 z-index: 0;}
 
+.under-bg_grey {background-color: #fafafa;
+                height: 1364px;
+                width: 225.75%;
+                clip-path: inset(0% 0% 0% 0% round 100px);
+                font-size: 14px;
+                position: relative;
+                left: -250px;
+                top: 60px;
+                z-index: 0;
+                transform: rotate(25.589deg);}
 
+.section-b {position: relative;
+            z-index: 1;
+            text-align: center;
+            top: -1150px;}
 
+.section-b__container {display: flex;
+                       flex-flow: column nowrap;
+                       align-items: center;}
 
+.section-b__container__heading {width: 50.56%;
+                                margin-top: 0px;
+                                margin-bottom: 34px;}
 
+.section-b__container__par {width: 78.45%;
+                            margin-top: 0px;
+                            margin-bottom: 90px;}
 
+.section-b__container__device,
+.section-b__container__shield,
+.section-b__container__people {margin-top: 0px;
+                               margin-bottom: 36px;}
 
-
-
+.section-b__container__heading-top,
+.section-b__container__heading-mid
+ {margin-bottom: 95px;}
 
 
 
