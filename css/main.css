@@ -200,9 +200,9 @@ main {overflow-x: hidden;}
             text-align: center;
             top: -1150px;}
 
-.section-b__container {display: flex;
-                       flex-flow: column nowrap;
-                       align-items: center;}
+.section-b__container, .section-c__container {display: flex;
+                                              flex-flow: column nowrap;
+                                              align-items: center;}
 
 .section-b__container__heading {width: 50.56%;
                                 margin-top: 0px;
@@ -214,18 +214,19 @@ main {overflow-x: hidden;}
 
 .section-b__container__device,
 .section-b__container__shield,
-.section-b__container__people {margin-top: 0px;
-                               margin-bottom: 36px;}
+.section-b__container__people   {margin-top: 0px;
+                                margin-bottom: 36px;}
 
 .section-b__container__heading-top,
-.section-b__container__heading-mid
- {margin-bottom: 95px;}
+.section-b__container__heading-mid  {margin-bottom: 95px;}
 
+.section-c__container__heading {width: 64.06%;
+                                text-align: center;}
 
+.section-c__container__par {width: 86.38%;
+                            text-align: center;}
 
-
-
-
+.section-c__container__sub-par {width: 48.75%; text-align: center;}
 
 
 
