@@ -132,7 +132,7 @@ nav > ul > li {list-style: none;
                      margin-right: 24px;
                      font-size: 12px;}
 
-.under-bg {background-image: linear-gradient(to right, #bdbafd, #847dca);
+.under-bg_blue {background-image: linear-gradient(to top, #a09ae2, #847dca);
           float: right;
           height: 300px;
           width: 58.75%;
@@ -158,13 +158,27 @@ nav > ul > li {list-style: none;
                         z-index: -1;
                         }
 
-.section-a {clear: both;}
+.section-a {clear: both;
+           display: flex;
+           flex-flow: column nowrap;
+           align-items: center;}
 
+.section-a__heading {width: 85.67%;
+                     text-align: center;
+                     margin-top: 0px;
+                     margin-bottom: 32px;}
 
+.section-a__par  {width: 87.50%;
+                  margin-top: 0px;
+                  margin-bottom: 30px;}
 
-
-
-
+.section-a__btn {padding: 17px 58px;
+                 background-color: #06d89b;
+                 border: none;
+                 border-radius: 5px;
+                 color: white;
+                 margin-top: 0px;
+                 margin-bottom: 206px;}
 
 
 
