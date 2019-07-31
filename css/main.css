@@ -223,11 +223,13 @@ main {overflow-x: hidden;}
 .section-c__container__heading {width: 64.06%;
                                 text-align: center;}
 
+.section-c__container {position: relative;
+                       top: -840px;}
+
 .section-c__container__par {width: 86.38%;
                             text-align: center;}
 
 .section-c__container__sub-par {width: 48.75%; text-align: center;}
-
 
 
 
