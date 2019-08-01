@@ -403,7 +403,7 @@ nav > ul > li {list-style: none;
 
 .under-bg_grey {background-color: #fafafa;
                 height: 744px;
-                width: 150%;
+                width: 105%;
                 margin-top: 30%;
                 position: relative;
                 left: -50px;
@@ -435,14 +435,50 @@ nav > ul > li {list-style: none;
 .section-b__container__sub-main__column3  {width: 30%;
                                           text-align: center;}
 
+.section-c__container {position: relative;
+                       z-index: 2;
+                       top: -500px;
+                       display: flex;
+                       flex-flow: row wrap;
+                       justify-content: space-around;
+                       align-items: center;}
 
+.section-c__container__column1 {width: 30%;}
 
+.section-c__container__column2 {display: flex;
+                                flex-flow: row wrap;
+                                width: 60%;}
 
+.section-c__container__sub-column1,
+.section-c__container__sub-column2,
+.section-c__container__sub-column3  {width:30%;
+                                    display: flex;
+                                    flex-flow: column nowrap;
+                                    justify-content: center;
+                                    align-items: center;
+                                    text-align: center;
+                                    background-color: white;}
 
+..section-c__container__sub-column2 {position: relative;
+                                     top: -150px;}
 
+.slack,
+.gsuite,
+.trello,
+.asana,
+.salesforce,
+.typeform       {width: 102px;
+                 border: 1px solid #f2f1f6;
+                 padding: 30px 56px;}
 
-
-
+.sub-block-slack,
+.sub-block-gsuite,
+.sub-block-trello,
+.sub-block-asana,
+.sub-block-salesforce,
+.sub-block-typeform {border: 1px solid #f2f1f6;
+                     width: 214px;
+                     margin-bottom: 20px;}
 
 
 
