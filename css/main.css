@@ -108,6 +108,7 @@ body {height: 5182px;
 
 header {height: 170px;
         overflow-x: hidden;
+        overflow-y: hidden;
         margin-bottom: 0px;}
 
 .list {position: relative;
@@ -331,16 +332,133 @@ footer {position: relative;
 
 .address-par-last {padding-bottom: 77px;}
 
+}
+
+@media screen and (min-width: 1200px)
+
+{
+body {margin: 0px;
+      padding: 0px;
+      font-size: 16px;}
+
+.under-bg_blue-big {float: right;
+                    height: 690px;
+                    width: 690px;
+                    background-image: url(../img/bg-intro-desktop.svg);}
+
+.list {position: relative;
+       float: right;
+       color: white;
+       z-index: 5;
+       margin-top: 36px;
+       margin-right: 0px;
+       padding-left: 0px;}
+
+nav > ul > li {list-style: none;
+               display: inline;
+               position: relative;
+               z-index: 5;}
+
+.under-bg_white-btn {margin-right: 16px;
+                     font-size: 12px;}
+
+.under-bg_green-btn {background-color: #06d89b;
+                     padding: 8px 21px;
+                     border-radius: 5px;
+                     margin-right: 24px;
+                     font-size: 12px;}
+
+
+.logo {float: left;
+       width: 180px;
+       margin-top: 4.58%;
+       margin-left: 8.19%;
+       position: relative;
+       z-index: 1;
+       margin-bottom: 170px;
+       clear: both;}
+
+.block-hero {text-align: center;}
+
+.block-hero__hero {float: right;
+                   position: relative;
+                   top: 190px;
+                   right: -50px;}
+
+.section-a {padding-top: 284px;
+            margin-left: 8.19%;}
+
+.section-a__heading {width: 34.375%; font-size: 40px;}
+
+.section-a__par {width: 35.28%;}
+
+.section-a__btn {padding: 27px 90px;
+                 background-color: #06d79d;
+                 border: none;
+                 border-radius: 5px;
+                 color: white;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 
 
 }
-
-
-
-
 /* ==========================================================================
    Helper classes
    ========================================================================== */
