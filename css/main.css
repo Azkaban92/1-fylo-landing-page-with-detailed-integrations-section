@@ -206,12 +206,10 @@ main {overflow-x: hidden;}
                                               align-items: center;}
 
 .section-b__container__heading {width: 50.56%;
-                                margin-top: 0px;
-                                margin-bottom: 34px;}
+                                margin: 0px auto 34px auto;}
 
 .section-b__container__par {width: 78.45%;
-                            margin-top: 0px;
-                            margin-bottom: 90px;}
+                            margin: 0px auto 90px auto;}
 
 .section-b__container__device,
 .section-b__container__shield,
@@ -411,18 +409,31 @@ nav > ul > li {list-style: none;
                 left: -50px;
                 clip-path: inset(0% 0% 0% 0% round 100px);
                 font-size: 14px;
-                z-index: 0;
+                z-index: -1;
                 transform: rotate(15.589deg);
                 clear: both;}
 
+.section-b {position: relative;
+            top: -700px;}
 
+.section-b__container__main {display: flex;
+                             flex-flow: column nowrap;
+                             align-items: center;
+                             margin-bottom: 87px;}
 
+.section-b__container__heading {margin-bottom: 32px;}
 
+.section-b__container__par {width: 30.90%;}
 
+.section-b__container__sub-main {display: flex;
+                                 flex-flow: row wrap;
+                                 justify-content: center;
+                                 align-items: center;}
 
-
-
-
+.section-b__container__sub-main__column1,
+.section-b__container__sub-main__column2,
+.section-b__container__sub-main__column3  {width: 30%;
+                                          text-align: center;}
 
 
 
