@@ -414,7 +414,7 @@ nav > ul > li {list-style: none;
                 clear: both;}
 
 .section-b {position: relative;
-            top: -700px;}
+            top: -650px;}
 
 .section-b__container__main {display: flex;
                              flex-flow: column nowrap;
@@ -437,7 +437,7 @@ nav > ul > li {list-style: none;
 
 .section-c__container {position: relative;
                        z-index: 2;
-                       top: -500px;
+                       top: -350px;
                        display: flex;
                        flex-flow: row wrap;
                        justify-content: space-around;
@@ -447,11 +447,11 @@ nav > ul > li {list-style: none;
 
 .section-c__container__column2 {display: flex;
                                 flex-flow: row wrap;
-                                width: 60%;}
+                                width: 50%;}
 
 .section-c__container__sub-column1,
 .section-c__container__sub-column2,
-.section-c__container__sub-column3  {width:30%;
+.section-c__container__sub-column3  {width: 30%;
                                     display: flex;
                                     flex-flow: column nowrap;
                                     justify-content: center;
@@ -459,8 +459,11 @@ nav > ul > li {list-style: none;
                                     text-align: center;
                                     background-color: white;}
 
-..section-c__container__sub-column2 {position: relative;
-                                     top: -150px;}
+.section-c__container__sub-column2 {position: relative;
+                                     top: -50px;}
+
+.section-c__container__sub-column1 {position: relative;
+                                     top: -22px;}
 
 .slack,
 .gsuite,
@@ -468,7 +471,7 @@ nav > ul > li {list-style: none;
 .asana,
 .salesforce,
 .typeform       {width: 102px;
-                 border: 1px solid #f2f1f6;
+                 border: 1px solid #eeedf2;
                  padding: 30px 56px;}
 
 .sub-block-slack,
@@ -476,10 +479,9 @@ nav > ul > li {list-style: none;
 .sub-block-trello,
 .sub-block-asana,
 .sub-block-salesforce,
-.sub-block-typeform {border: 1px solid #f2f1f6;
+.sub-block-typeform {border: 1px solid #eeedf2;
                      width: 214px;
                      margin-bottom: 20px;}
-
 
 
 
